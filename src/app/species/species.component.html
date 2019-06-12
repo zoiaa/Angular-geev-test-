@@ -1,0 +1,15 @@
+<ul>
+  <div class="item" 
+    *ngFor="let species of results">
+      <h2 class="block">
+        <a class="title" [routerLink]="['/specieslist', species.id]">
+          {{ species.name }}
+      </a>
+    </h2>
+  </div>
+</ul>
+
+<div>
+  <img class="logo" src="https://cdn.pixabay.com/photo/2017/11/01/14/26/star-wars-2908144_960_720.png" >
+</div>
+

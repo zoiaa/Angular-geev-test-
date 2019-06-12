@@ -1,0 +1,13 @@
+.people {
+    color:black;
+    text-align:center;
+}
+
+.item {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:#4BC217;
+    border-radius:10px;
+    width:50%;
+    margin:auto;
+    margin-top:50px;
+}

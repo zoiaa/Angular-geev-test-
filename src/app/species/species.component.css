@@ -1,0 +1,32 @@
+.item {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:#E71313;
+    border-radius:10px;
+    margin-bottom:15px;
+}  
+
+.item:hover {
+    background-color:#4BC217;
+    margin-left:3px;
+    transition:0.1s;
+}
+
+.block {
+    margin:10px;
+}
+
+.title {
+    width: 100%;
+    color:black;
+    text-decoration:none;
+}
+
+.logo {
+    display:block;
+    width:40%;
+    margin-left:33%;
+}
+
+a {
+    display: block;
+}
